@@ -41,7 +41,7 @@ int main() {
     // input for semester Two
     // printf("Semester II\n");
     for ( int i = 0; i < 8; i++) {
-        /// printf("Enter score for %s:",sem2_codes[i]);
+        // printf("Enter score for %s:",sem2_codes[i]);
         scanf("%f",&scores2[i]);
         //the invalid input rule
         if (scores2[i] < 0 || scores2[i] > 100) {
@@ -67,7 +67,7 @@ int main() {
     else if (cgpa >=2.80) class = "Second Class Lower";
     else if (cgpa >=2.00) class = "Pass";
     else class = "Fail";
-
+    //the print out
     printf("Semester I GPA: %.2f\n", gpa1);
     printf("Semester II GPA: %.2f\n",gpa2);
     printf("CGPA: %.2f\n", cgpa);
