@@ -68,16 +68,18 @@ int main() {
     else if (cgpa >=2.00) class = "Pass";
     else class = "Fail";
 
+    printf("Semester I GPA: %.2f\n", gpa1);
+    printf("Semester II GPA: %.2f\n",gpa2);
+    printf("CGPA: %.2f\n", cgpa);
+    printf("Classification: %s\n", class);
+    
     //output report
     printf("\n---FULL ACADEMIC REPORT---\n");
     printf("\n%-12s | %-6s | %-5s | %-3s| %-3s| %-8s\n","CourseCode","Score","Grade","GP","Cu","Weighted");
     for (int i = 0; i<8; i++) printf("%s\t%.1f\t%c\t%.0f\t%d\t%.1f\n",sem1_codes[i], scores1[i],grades1[i], gp1[i], cu1[i],gp1[i]*cu1[i]);
     for (int i = 0; i<8; i++) printf("%s\t%.1f\t%c\t%.0f\t%d\t%.1f\n",sem2_codes[i], scores2[i],grades2[i], gp2[i], cu2[i],gp2[i]*cu2[i]);
 
-    printf("Semester I GPA: %.2f\n", gpa1);
-    printf("Semester II GPA: %.2f\n",gpa2);
-    printf("CGPA: %.2f\n", cgpa);
-    printf("Classification: %s\n", class);
+    
    
     return 0;
 }
