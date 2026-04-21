@@ -39,7 +39,7 @@ int main() {
         sem1_weighted_sum += (gp1[i] * cu1[i]);
     }
     // input for semester Two
-    printf("Semester II\n");
+    // printf("Semester II\n");
     for ( int i = 0; i < 8; i++) {
         /// printf("Enter score for %s:",sem2_codes[i]);
         scanf("%f",&scores2[i]);
