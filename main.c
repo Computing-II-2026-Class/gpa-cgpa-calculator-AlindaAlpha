@@ -1,6 +1,6 @@
 /*
-Name: Your Name Here
-Registration Number: Your Registration Number Here
+Name: ALINDA ATUNGA ALPHA
+Registration Number: 25/U/BIE/01354/PE
 */
 
 #include <stdio.h>
