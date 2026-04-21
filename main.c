@@ -21,7 +21,7 @@ int main() {
     int sem1_total_cu = 24, sem2_total_cu = 25;
 
     // input for semester One
-    printf("Semester I\n");
+    // printf("Semester I\n");
     for (int i = 0; i < 8; i++){
         // printf("Enter score for %s:", sem1_codes[i]);
         scanf("%f", &scores1[i]);
