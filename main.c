@@ -23,7 +23,7 @@ int main() {
     // input for semester One
     printf("Semester I\n");
     for (int i = 0; i < 8; i++){
-         printf("Enter score for %s:", sem1_codes[i]);
+        // printf("Enter score for %s:", sem1_codes[i]);
         scanf("%f", &scores1[i]);
         //the invalid input rule  
         if(scores1[i] < 0 || scores1[i] >100) {
