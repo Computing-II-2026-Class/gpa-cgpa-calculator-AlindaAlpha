@@ -63,8 +63,8 @@ int main() {
     // the logic classification
     char *class;
     if (cgpa >=4.40) class = "First class";
-    else if (cgpa >=3.60) class = "Second class upper";
-    else if (cgpa >=2.80) class = "Second class lower";
+    else if (cgpa >=3.60) class = "Second Class Upper";
+    else if (cgpa >=2.80) class = "Second Class Lower";
     else if (cgpa >=2.00) class = "Pass";
     else class = "Fail";
 
